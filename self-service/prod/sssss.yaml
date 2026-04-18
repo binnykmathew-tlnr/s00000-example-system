@@ -1,0 +1,4 @@
+apiVersion: azure.tnnova.io/v1alpha1
+kind: UserAssignedIdentity
+metadata:
+  name: sssss
