@@ -2,3 +2,5 @@ apiVersion: azure.tnnova.io/v1alpha1
 kind: EntraGroup
 metadata:
   name: hjhjhj
+spec:
+  description: test
