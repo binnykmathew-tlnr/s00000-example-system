@@ -1,0 +1,16 @@
+apiVersion: azure.tnnova.io/v1alpha1
+kind: Redis
+metadata:
+  name: redis-cache
+spec:
+  clusterPolicy: OSSCluster
+  compute:
+    size: Small
+  enableAccessKey: false
+  evictionPolicy: VolatileLRU
+  exposeInternally: false
+  permissions:
+    - entityRef:
+        kind: ServicePrincipal
+        name: dddddd
+      role: Data Owner
