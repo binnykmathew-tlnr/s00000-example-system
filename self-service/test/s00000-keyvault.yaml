@@ -1,0 +1,13 @@
+apiVersion: azure.tnnova.io/v1alpha1
+kind: KeyVault
+metadata:
+  name: s00000-keyvault
+spec:
+  exposeInternally: true
+  permissions:
+    - entityRef:
+        kind: ServicePrincipal
+        name: dddddd
+      role: Key Vault Secrets User
+      scopes:
+        - '*'
