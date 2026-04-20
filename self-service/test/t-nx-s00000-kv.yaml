@@ -4,10 +4,3 @@ metadata:
   name: t-nx-s00000-kv
 spec:
   exposeInternally: false
-  permissions:
-    - entityRef:
-        kind: EntraGroup
-        name: adadadadad
-      role: Key Vault Administrator
-      scopes:
-        - '*'
