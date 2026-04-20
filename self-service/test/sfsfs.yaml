@@ -1,0 +1,7 @@
+apiVersion: azure.tnnova.io/v1alpha1
+kind: PostgreSQLServer
+metadata:
+  name: sfsfs
+spec:
+  compute:
+    size: Small

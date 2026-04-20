@@ -10,4 +10,11 @@ spec:
         name: dddddd
       role: Key Vault Secrets User
       scopes:
-        - '*'
+        - "*"
+    - entityRef:
+        kind: EntraGroup
+        name: adadadadad
+      role: Key Vault Administrator
+      scopes:
+        - "*"
+  landingZoneName: t-nx-s00000
