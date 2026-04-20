@@ -1,0 +1,6 @@
+apiVersion: azure.tnnova.io/v1alpha1
+kind: ServicePrincipal
+metadata:
+  name: fghfgfg
+spec:
+  zoneClass: nx
